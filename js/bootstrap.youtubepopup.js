@@ -102,7 +102,7 @@
   }
 
   function getYouTubeUrl(youtubeId, options) {
-    return ["//www.youtube.com/embed/", youtubeId, "?rel=0&showsearch=0&autohide=", options.autohide,
+    return ["https://www.youtube.com/embed/", youtubeId, "?rel=0&showsearch=0&autohide=", options.autohide,
       "&autoplay=", options.autoplay, "&controls=", options.controls, "&fs=", options.fs, "&loop=", options.loop,
       "&showinfo=", options.showinfo, "&color=", options.color, "&theme=", options.theme, "&wmode=transparent"
     ].join('');
